@@ -136,17 +136,17 @@ prompt("提示字符串","缺省文本") | 显示一个输入框，在输入框�
 
 ### 窗口位置
 
-声明 | IE | !IE
----- | -- | ---
+声明 | `IE` | `!IE`
+---- | ---- | -----
 窗口的左上角的X坐标 | screenLeft | screenX
 窗口的左上角的Y坐标 | screenTop  | screenY
 当前文档向右滚动过的像素值 | document.body.screenLeft | pageXOffset
-                           | document.documentElement.scrollLeft
+                           | document.documentElement.scrollLeft |
 当前文档向下滚动过的像素值 | document.body.screenTop | pageYOffset
-                           | document.documentElement.scrollTop
+                           | document.documentElement.scrollTop |
 
-FF属性 | 返回
------- | ----
+`FF` | 返回
+---- | ----
 innerHeight | 窗口的文档显示区的高度
 innerWidth  | 窗口的文档显示区的宽度
 outerHeight | 窗口的外部高度
